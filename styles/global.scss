@@ -1,0 +1,31 @@
+:root {
+    --standard-margin: 0 4rem;
+    --standard-font: 'DM Sans';
+    --primary-color: #226752;
+}
+
+html, body, #__next {
+    font-family: var(--standard-font);
+    font-size: 16px;
+    font-weight: 500;
+    height: 100%;
+}
+
+input[type=text], input[type=password], input[type=email], input[type=submit] {
+    height: 2.5rem;
+    border-radius: .25rem;
+    width: 100%;
+    line-height: 1.5rem;
+    padding: 0 .5rem;
+}
+
+input[type=submit] {
+    border: none;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+}
